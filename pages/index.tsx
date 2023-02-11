@@ -5,7 +5,7 @@ const index = () => {
   return (
     <div>
       <div>
-        <Link href={'/TodoList'}>TodoList 1</Link>
+        <Link href={'/TodoList'}>TodoList 123</Link>
       </div>
       <div>
         <Link href={'/IssueList'}>IssueList</Link>
