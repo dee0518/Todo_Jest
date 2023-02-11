@@ -1,16 +1,10 @@
 name: Todo_Jeact
 
-on:
-  push:
-    branches: [main, develope]
-  pull_request:
-    branches: [main]
-
+on: push
 jobs:
-  build:
+  job1:
     runs-on: ubuntu-latest
     steps:
-      name: First step
-      run: npm install
+      run: npm installs
         npm test
         npm build
