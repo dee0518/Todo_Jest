@@ -1,0 +1,7 @@
+name: Todo_Jeact
+
+on:
+  push:
+    branches: [ main, develope ]
+  pull_request:
+    branches: [ main ]
