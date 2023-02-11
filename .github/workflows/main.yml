@@ -2,6 +2,15 @@ name: Todo_Jeact
 
 on:
   push:
-    branches: [ main, develope ]
+    branches: [main, develope]
   pull_request:
-    branches: [ main ]
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      name: First step
+      run: npm install
+        npm test
+        npm build
